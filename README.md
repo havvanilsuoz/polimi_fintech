@@ -2,7 +2,7 @@
 
 This repository is created for Polimi's "FINTECH: Career Simulation" challenge. 
 
-You can access the notebook [here](data/genai_challenge.ipynb).
+You can access the notebook [here](notebooks/genai_challenge.ipynb).
 
 ### Metadata Column Descriptions
 
