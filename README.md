@@ -4,6 +4,13 @@ This repository is created for Polimi's "FINTECH: Career Simulation" challenge.
 
 You can access the notebook [here](notebooks/genai_challenge.ipynb).
 
+<a target="_blank" href="
+https://colab.research.google.com/github/havvanilsuoz/polimi_fintech/blob/main/notebooks/genai_challenge.ipynb">
+<img src="
+https://colab.research.google.com/assets/colab-badge.svg"
+alt="Open In Colab"/>
+</a>
+
 ### Metadata Column Descriptions
 
 1. **country**: The country in which the company is based or operates.
