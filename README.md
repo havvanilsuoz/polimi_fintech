@@ -2,12 +2,17 @@
 
 This repository is created for Polimi's "FINTECH: Career Simulation" challenge. 
 
-You can access the notebook [here](notebooks/genai_challenge.ipynb).
+You can access the notebook below:
 
 <a target="_blank" href="https://colab.research.google.com/drive/1mSUqj4ShB8hQfu7NqjK_1pgoDBd8DYND?usp=sharing">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 
+You can access our version of solution below:
+
+<a target="_blank" href="https://colab.research.google.com/drive/1K1uM4wz1bhWtI2OHtFwtf386nXcpiiJr?usp=sharing">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 
 ### Metadata Column Descriptions
 
