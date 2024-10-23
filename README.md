@@ -2,66 +2,55 @@
 
 This repository is created for Polimi's "FINTECH: Career Simulation" project. 
 
-### Column Descriptions
+### Metadata Column Descriptions
 
-- **country**: The country where the company is based.
-- **industry**: The specific industry the company operates in.
-- **sector**: The broader sector to which the company belongs.
-- **longBusinessSummary**: A brief overview of the company's business operations.
-- **fullTimeEmployees**: The total number of full-time employees at the company.
-- **dividendRate**: The annual dividend per share distributed to shareholders.
-- **dividendYield**: The dividend yield as a percentage of the share price.
-- **exDividendDate**: The date after which new buyers are not entitled to the next dividend.
-- **payoutRatio**: The percentage of earnings paid out as dividends.
-- **beta**: A measure of the stock's volatility compared to the overall market.
-- **trailingPE**: The price-to-earnings ratio based on the last 12 months of earnings.
-- **forwardPE**: The price-to-earnings ratio based on projected future earnings.
-- **volume**: The number of shares traded during a specific period.
-- **averageVolume**: The average number of shares traded over a defined period, typically 3 months.
-- **averageVolume10days**: The average trading volume over the last 10 days.
-- **marketCap**: The company's total market capitalization (share price × shares outstanding).
-- **fiftyTwoWeekLow**: The lowest stock price over the past 52 weeks.
-- **fiftyTwoWeekHigh**: The highest stock price over the past 52 weeks.
-- **fiftyDayAverage**: The average stock price over the last 50 days.
-- **twoHundredDayAverage**: The average stock price over the last 200 days.
-- **currency**: The currency in which the company reports financials.
-- **enterpriseValue**: The total value of the company, including market cap, debt, and cash adjustments.
-- **profitMargins**: The company's net profit as a percentage of total revenue.
-- **floatShares**: The number of shares available for public trading.
-- **sharesOutstanding**: The total number of shares issued by the company.
-- **bookValue**: The company's net asset value per share.
-- **priceToBook**: The ratio of market price to the book value per share.
-- **earningsQuarterlyGrowth**: The growth rate of earnings compared to the same quarter in the previous year.
-- **netIncomeToCommon**: Net income available to common shareholders.
-- **trailingEps**: The company's earnings per share over the last 12 months.
-- **forwardEps**: The company's projected earnings per share.
-- **pegRatio**: The price/earnings-to-growth ratio, which adjusts the P/E ratio by growth rate.
-- **lastSplitFactor**: The ratio of the most recent stock split (e.g., 2:1).
-- **lastSplitDate**: The date when the most recent stock split occurred.
-- **enterpriseToRevenue**: The ratio of enterprise value to revenue.
-- **enterpriseToEbitda**: The ratio of enterprise value to EBITDA.
-- **52WeekChange**: The percentage change in stock price over the last 52 weeks.
-- **SandP52WeekChange**: The percentage change in the S&P 500 index over the last 52 weeks.
-- **exchange**: The stock exchange where the company's shares are listed.
-- **quoteType**: The type of financial asset (e.g., equity, ETF).
-- **underlyingSymbol**: The symbol of the underlying asset for derivative instruments.
-- **shortName**: The company's abbreviated name, often the ticker symbol.
-- **longName**: The company's full official name.
-- **firstTradeDateEpochUtc**: The date (in Unix time) of the stock's first trade.
-- **totalCash**: The total amount of cash held by the company.
-- **totalCashPerShare**: The total cash divided by the number of outstanding shares.
-- **ebitda**: Earnings before interest, taxes, depreciation, and amortization.
-- **totalDebt**: The total debt owed by the company.
-- **currentRatio**: A liquidity ratio calculated as current assets divided by current liabilities.
-- **totalRevenue**: The company's total revenue from operations.
-- **debtToEquity**: The ratio of the company's debt to its equity.
-- **revenuePerShare**: Revenue divided by the number of outstanding shares.
-- **returnOnAssets**: Net income as a percentage of total assets.
-- **returnOnEquity**: Net income as a percentage of shareholders' equity.
-- **freeCashflow**: The cash remaining after capital expenditures.
-- **operatingCashflow**: Cash generated from the company's core operations.
-- **earningsGrowth**: The company's earnings growth compared to a previous period.
-- **revenueGrowth**: The company's revenue growth compared to a previous period.
-- **operatingMargins**: Operating income as a percentage of revenue.
-- **financialCurrency**: The currency in which the company's financials are reported.
-- **trailingPegRatio**: The PEG ratio using trailing earnings.
+1. **country**: The country in which the company is based or operates.
+2. **industry**: The specific industry to which the company belongs.
+3. **sector**: The broader sector that the company's industry falls under (e.g., Technology, Healthcare).
+4. **longBusinessSummary**: A detailed description or summary of the company’s business and operations.
+5. **dividendRate**: The annual dividend payment per share of the company.
+6. **dividendYield**: The dividend as a percentage of the company’s stock price.
+7. **payoutRatio**: The proportion of earnings paid out as dividends to shareholders.
+8. **beta**: A measure of the stock's volatility relative to the overall market.
+9. **trailingPE**: The price-to-earnings ratio based on the last 12 months of earnings.
+10. **forwardPE**: The price-to-earnings ratio based on projected earnings over the next 12 months.
+11. **volume**: The number of shares traded in a given time period.
+12. **averageVolume**: The average number of shares traded over a specific period, usually calculated over 30 or 90 days.
+13. **marketCap**: The total market value of a company's outstanding shares.
+14. **fiftyTwoWeekLow**: The lowest price of the company’s stock in the past 52 weeks.
+15. **fiftyTwoWeekHigh**: The highest price of the company’s stock in the past 52 weeks.
+16. **currency**: The currency in which the company's financials are reported.
+17. **enterpriseValue**: The total value of the company, including market capitalization and debt, minus cash.
+18. **profitMargins**: The ratio of a company’s profit to its revenue.
+19. **floatShares**: The number of shares available for trading by the public.
+20. **sharesOutstanding**: The total number of a company’s shares that are currently owned by all its shareholders.
+21. **bookValue**: The net value of a company’s assets minus liabilities (assets - liabilities).
+22. **priceToBook**: The ratio of the company’s market price to its book value.
+23. **netIncomeToCommon**: Net income attributable to common shareholders.
+24. **trailingEps**: The company’s earnings per share based on the last 12 months.
+25. **pegRatio**: The price/earnings to growth ratio, used to determine a stock’s value while considering earnings growth.
+26. **lastSplitFactor**: The factor by which a company’s shares were split, typically in a stock split (e.g., 2:1).
+27. **lastSplitDate**: The date on which the most recent stock split occurred.
+28. **enterpriseToRevenue**: A ratio comparing the enterprise value to the company’s revenue.
+29. **enterpriseToEbitda**: A ratio comparing the enterprise value to the company's earnings before interest, taxes, depreciation, and amortization (EBITDA).
+30. **exchange**: The stock exchange where the company’s shares are listed.
+31. **quoteType**: The type of financial instrument (e.g., equity, index, mutual fund).
+32. **underlyingSymbol**: The ticker symbol of an associated or underlying asset.
+33. **shortName**: The abbreviated name of the company.
+34. **longName**: The full name of the company.
+35. **firstTradeDateEpochUtc**: The date of the company’s first trade, expressed in Unix time.
+36. **totalCash**: The total amount of cash and cash equivalents the company holds.
+37. **totalCashPerShare**: The amount of cash per outstanding share of the company.
+38. **ebitda**: The company’s earnings before interest, taxes, depreciation, and amortization.
+39. **totalDebt**: The total debt the company owes.
+40. **currentRatio**: A liquidity ratio that measures the company’s ability to pay short-term obligations.
+41. **totalRevenue**: The company’s total revenue from operations.
+42. **debtToEquity**: The ratio of the company’s total debt to shareholders' equity.
+43. **revenuePerShare**: The revenue earned per outstanding share of the company.
+44. **returnOnAssets**: A ratio indicating how profitable a company is relative to its total assets.
+45. **returnOnEquity**: A ratio indicating how profitable a company is relative to shareholder equity.
+46. **freeCashflow**: The cash a company generates after accounting for cash outflows to support operations and maintain capital assets.
+47. **operatingCashflow**: The cash a company generates from its core business operations.
+48. **operatingMargins**: The ratio of operating income to net sales, measuring the profitability of a company’s operations.
+49. **financialCurrency**: The currency in which the company's financial results are reported.
+
