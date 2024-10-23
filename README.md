@@ -1,6 +1,8 @@
 # FINTECH: Career Simulation - Polimi
 
-This repository is created for Polimi's "FINTECH: Career Simulation" project. 
+This repository is created for Polimi's "FINTECH: Career Simulation" challenge. 
+
+You can access the notebook [here](data/genai_challenge.ipynb).
 
 ### Metadata Column Descriptions
 
